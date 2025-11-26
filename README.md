@@ -7,10 +7,10 @@ This code is a re-written version of [fit-rec](https://github.com/nijianmo/fit-r
   ```
   python3 heart_rate_aux.py \
   --epoch 50 \
-  --batch_size 256 \
   --attributes userId,sport,gender \
   --input_attributes distance,altitude,time_elapsed \
   --temporal
+  --max_workouts 0
   ```
 
 > When running failed before data processing, `/data/processed_endomondoHR_proper.npy` may needs to be removed before restarting.
