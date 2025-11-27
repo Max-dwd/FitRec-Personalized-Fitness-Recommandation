@@ -7,7 +7,7 @@ This code is a re-written version of [fit-rec](https://github.com/nijianmo/fit-r
   ```
   python3 heart_rate_aux.py \
   --epoch 50 \
-  --attributes userId,sport,gender \
+  --attributes userId,sport \
   --input_attributes distance,altitude,time_elapsed \
   --temporal
   --max_workouts 0
